@@ -22,6 +22,7 @@ fn main() {
     run!(1, true, true);
     run!(2, true, true);
     run!(3, true, true);
+    run!(4, true, false);
 }
 
 fn run_part<T: Display>(func: impl Fn(&str) -> T, day: u32, part: u32) {
