@@ -19,10 +19,12 @@ macro_rules! run {
 const YEAR: u32 = 2022;
 
 fn main() {
-    run!(1, true, true);
-    run!(2, true, true);
-    run!(3, true, true);
-    run!(4, true, false);
+    // run!(1, true, true);
+    // run!(2, true, true);
+    // run!(3, true, true);
+    // run!(4, true, false);
+    // run!(5, true, true);
+    run!(6, true, true);
 }
 
 fn run_part<T: Display>(func: impl Fn(&str) -> T, day: u32, part: u32) {
